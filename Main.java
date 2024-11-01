@@ -4,8 +4,9 @@ public class Main {
         Colore colore = new Colore("Giallo");
         Colore rosso = new Colore("Rosso");
         Materiale materiale = new Materiale("Cotone", 15.75);
+        Materiale seta = new Materiale("Seta",19.90);
         Capo capo = new Capo(modello, colore, materiale);
-        Capo capo1 = new Capo(modello,rosso,materiale);
+        Capo capo1 = new Capo(modello,rosso,seta);
         Collezione collezione = new Collezione();
         
         collezione.add(capo);
@@ -17,6 +18,9 @@ public class Main {
         
         System.out.println(capo);
         System.out.println("Prezzo: " + capo.prezzo());
+        
+        System.out.println(capo1);
+        System.out.println("Prezzo: " + capo1.prezzo());
         
         System.out.println(collezione.getCapiPerColore(new Colore("Giallo")));
         
