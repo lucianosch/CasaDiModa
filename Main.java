@@ -1,20 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        Modello modello = new Modello("T-shirt", 7.50, 4.75);
-        Colore colore = new Colore("Giallo");
+        Modello tshirt = new Modello("T-shirt", 7.50, 4.75);
+        Modello camicia = new Modello("Camicia", 6.00, 5.00);
+        Colore giallo = new Colore("Giallo");
         Colore rosso = new Colore("Rosso");
-        Materiale materiale = new Materiale("Cotone", 15.75);
+        Materiale cotone = new Materiale("Cotone", 15.75);
         Materiale seta = new Materiale("Seta",19.90);
-        Capo capo = new Capo(modello, colore, materiale);
-        Capo capo1 = new Capo(modello,rosso,seta);
+        Capo capo = new Capo(tshirt, rosso, cotone);
+        Capo capo1 = new Capo(camicia,giallo,seta);
         Collezione collezione = new Collezione();
         
         collezione.add(capo);
         collezione.add(capo1);
 
-        System.out.println(modello);
-        System.out.println(colore);
-        System.out.println(materiale);
+        System.out.println(tshirt);
+        System.out.println(giallo);
+        System.out.println(rosso);
         
         System.out.println(capo);
         System.out.println("Prezzo: " + capo.prezzo());
