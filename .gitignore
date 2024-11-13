@@ -1,0 +1,7 @@
+Ignorare tutto
+*
+
+#Elenca esplicitamente cosa tracciare
+
+!*.java
+!.gitignore
