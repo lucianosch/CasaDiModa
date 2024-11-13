@@ -20,13 +20,13 @@ public class Main {
         System.out.println(giallo);
         System.out.println(rosso);
         
-        System.out.println(capo);
+        System.out.print(capo);
         System.out.println("Prezzo: " + capo.prezzo());
         
-        System.out.println(capo1);
+        System.out.print(capo1);
         System.out.println("Prezzo: " + capo1.prezzo());
         
-        System.out.println(capo2);
+        System.out.print(capo2);
         System.out.println("Prezzo: " + capo2.prezzo());
         
         System.out.println(collezione.getCapiPerColore(new Colore("Giallo")));
