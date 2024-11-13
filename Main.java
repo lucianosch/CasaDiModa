@@ -26,6 +26,9 @@ public class Main {
         System.out.println(capo1);
         System.out.println("Prezzo: " + capo1.prezzo());
         
+        System.out.println(capo2);
+        System.out.println("Prezzo: " + capo2.prezzo());
+        
         System.out.println(collezione.getCapiPerColore(new Colore("Giallo")));
         System.out.println(collezione.getCapiPerColore(new Colore("Rosso")));
         
