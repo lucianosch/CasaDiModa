@@ -16,7 +16,7 @@ public class Capo {
     }
 
     public String toString() {
-        return modello.getNome() + " " + colore.getNomeC() + " di " + materiale.getNomeM();
+        return modello.getNome() + " " + colore.getNomeC() + " di " + materiale.getNomeM() + "\n";
     }
     
     public Colore getColore(){
