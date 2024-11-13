@@ -21,7 +21,7 @@ class Collezione{
         String retValue = "Capi di colore: " + col.getNomeC() + "\n";
         for (int i=0; i<nCapi; i++){
             if (capi[i].getColore().getNomeC().equals(col.getNomeC()))
-                retValue = retValue + capi[i] +";";
+                retValue = retValue + capi[i];
         }
         return retValue;
     }
