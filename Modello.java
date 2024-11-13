@@ -2,6 +2,7 @@ public class Modello{
     private String nome;
     private double costoFisso;
     private double quantita;
+    
 
     public Modello(String nome,double costoFisso, double quantita){
         this.nome=nome;

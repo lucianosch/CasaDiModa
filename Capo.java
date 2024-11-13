@@ -4,6 +4,7 @@ public class Capo {
     private Materiale materiale;
 //    private double costoFisso; 
 
+
 //    public Capi(Modello modello, Colore colore, Materiale materiale, double costoFisso) {
     public Capo(Modello modello, Colore colore, Materiale materiale) {
         this.modello = modello;

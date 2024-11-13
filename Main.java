@@ -13,6 +13,7 @@ public class Main {
         Capo capo3 = new Capo(polo, rosso, cotone);
         Collezione collezione = new Collezione();
         
+        
         collezione.add(capo);
         collezione.add(capo1);
         collezione.add(capo2);
