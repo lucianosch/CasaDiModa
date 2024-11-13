@@ -14,6 +14,7 @@ public class Main {
         
         collezione.add(capo);
         collezione.add(capo1);
+        collezione.add(capo2);
 
         System.out.println(tshirt);
         System.out.println(giallo);
