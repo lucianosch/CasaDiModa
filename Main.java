@@ -12,8 +12,7 @@ public class Main {
         Capo capo2 = new Capo(polo, giallo, cotone);
         Capo capo3 = new Capo(polo, rosso, cotone);
         Collezione collezione = new Collezione();
-        
-        
+               
         collezione.add(capo);
         collezione.add(capo1);
         collezione.add(capo2);
@@ -34,6 +33,5 @@ public class Main {
         
         System.out.println(collezione.getCapiPerColore(new Colore("Giallo")));
         System.out.println(collezione.getCapiPerColore(new Colore("Rosso")));
-        
     }
 }
