@@ -11,12 +11,14 @@ public class Main {
         Capo capo1 = new Capo(camicia,giallo,seta);
         Capo capo2 = new Capo(polo, giallo, cotone);
         Capo capo3 = new Capo(polo, rosso, cotone);
+        Capo capo4 = new Capo(camicia,rosso,cotone);
         Collezione collezione = new Collezione();
                
         collezione.add(capo);
         collezione.add(capo1);
         collezione.add(capo2);
         collezione.add(capo3);
+        collezione.add(capo4);
 
         System.out.println(tshirt);
         System.out.println(giallo);
