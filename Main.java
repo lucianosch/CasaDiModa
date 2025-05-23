@@ -12,6 +12,7 @@ public class Main {
         Capo capo2 = new Capo(polo, giallo, cotone);
         Capo capo3 = new Capo(polo, rosso, cotone);
         Capo capo4 = new Capo(camicia,rosso,cotone);
+        Capo capo5 = new Capo(tshirt, giallo, cotone);
         Collezione collezione = new Collezione();
                
         collezione.add(capo);
@@ -19,7 +20,8 @@ public class Main {
         collezione.add(capo2);
         collezione.add(capo3);
         collezione.add(capo4);
-
+        collezione.add(capo5);
+        
         System.out.println(tshirt);
         System.out.println(giallo);
         System.out.println(rosso);
